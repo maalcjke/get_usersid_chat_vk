@@ -15,7 +15,7 @@ function output($id_chat) {
   return implode(',', $final);
 }
 
-function VKget($method, $args = []) {
+function VKget($method, $args = array()) {
   return json_decode(file_get_contents("https://api.vk.com/method/{$method}?{$args}&access_token={$GLOBALS['token']}&v={$GLOBALS['v']}"), true);
 }
 
