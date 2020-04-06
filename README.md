@@ -1,2 +1,2 @@
-# get_usersid_chat_vk
+# GET VK CHAT ID
 Получение id всех пользователей из беседы ВК
