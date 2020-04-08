@@ -13,7 +13,7 @@
 ***
 ### Скриншоты
 #### Форма ввода
-* ![Форма ввода ID беседы](https://image.prntscr.com/image/fBXa4KloSiWMA0V6Gp5z3w.png)
+![Форма ввода ID беседы](https://image.prntscr.com/image/fBXa4KloSiWMA0V6Gp5z3w.png)
 ***
 #### Итоговый список
-* ![Итоговый список](https://image.prntscr.com/image/p511CgTXRg6bWNzNU6P_7g.png)
+![Итоговый список](https://image.prntscr.com/image/p511CgTXRg6bWNzNU6P_7g.png)
