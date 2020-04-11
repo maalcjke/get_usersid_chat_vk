@@ -9,7 +9,7 @@ function output($id_chat) {
   $final = array();
 
   for ($i=0; $i < count($users); $i++) {
-    if(!isset($users[$i]['deactivated'])) array_push($final, "@id{$users[$i]['id']}"); // Проверка на удаленных и забаенных пользователей
+    if(!isset($users[$i]['deactivated'])) array_push($final, "@id{$users[$i]['id']} (~~~~~)"); // Проверка на удаленных и забаенных пользователей
   }
 
   return implode(',', $final);
