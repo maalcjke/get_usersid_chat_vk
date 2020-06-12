@@ -12,7 +12,8 @@ function output($id_chat) {
     if(!isset($users[$i]['deactivated'])) array_push($final, "@id{$users[$i]['id']} (~)"); // Проверка на удаленных и забаенных пользователей
   }
 
-  return implode('~', $final);
+  //return implode('~', $final); // Function for masking id of conversation participants (Has come to replace command @all)
+  return $final;
 }
 
 function VKget($method, $args = array()) {
